@@ -5,8 +5,8 @@ adding vocabulary. It sits next to the data and is served at the live site, so i
 can be fetched directly instead of relying on a pasted spec that goes stale:
 
 ```
-https://charles-spence-discera.github.io/german-flashcards/data/AUTHORING.md
-https://charles-spence-discera.github.io/german-flashcards/data/schema.json
+https://charles-spence.github.io/german-flashcards/data/AUTHORING.md
+https://charles-spence.github.io/german-flashcards/data/schema.json
 ```
 
 `schema.json` is the machine-readable contract. If the two disagree, the schema

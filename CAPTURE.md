@@ -13,10 +13,10 @@ connector. It needs a paid Claude plan.
 1. Open Claude (app or web) → **Settings → Connectors**.
 2. **Add custom connector**, using GitHub's remote MCP server URL:
    `https://api.githubcopilot.com/mcp/`
-3. Authorise it against the **Charles-Spence-Discera** account, and grant access to
+3. Authorise it against the **charles-spence** account, and grant access to
    the `german-flashcards` repository.
 4. Confirm it works by asking Claude in a new chat:
-   *"List the files in public/data/cards/ in Charles-Spence-Discera/german-flashcards."*
+   *"List the files in public/data/cards/ in charles-spence/german-flashcards."*
 
 If your plan doesn't offer custom connectors, skip to [the manual
 fallback](#manual-fallback-no-connector-needed) — it still works fine.
@@ -28,12 +28,12 @@ fallback](#manual-fallback-no-connector-needed) — it still works fine.
 Save this somewhere you can paste it from your phone. Attach photos of the page, then
 send it. Change the source and chapter line each time.
 
-> Add vocabulary to my German flashcards repo, `Charles-Spence-Discera/german-flashcards`.
+> Add vocabulary to my German flashcards repo, `charles-spence/german-flashcards`.
 >
 > **Source: Das Lied der Krähen — Kapitel 5**
 >
 > First, fetch and follow
-> `https://charles-spence-discera.github.io/german-flashcards/data/AUTHORING.md`.
+> `https://charles-spence.github.io/german-flashcards/data/AUTHORING.md`.
 > It is the authoritative format spec. Follow it exactly.
 >
 > From the attached photos, extract vocabulary worth learning at B2–C1. Skip words I
@@ -107,7 +107,7 @@ Works on any plan, takes about 30 seconds.
    anything — I'll paste it myself."*
 2. Copy the JSON block.
 3. Go to
-   `github.com/Charles-Spence-Discera/german-flashcards/new/main/public/data/cards`
+   `github.com/charles-spence/german-flashcards/new/main/public/data/cards`
 4. Name the file `2026-08-20-kraehen-kap5.json`, paste, **Commit changes**.
 
 Creating a new file is genuinely easy on mobile. Editing a large existing one is not

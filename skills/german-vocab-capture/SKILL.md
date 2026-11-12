@@ -2,7 +2,7 @@
 name: german-vocab-capture
 description: >
   Turn photographs of a German book page into flashcards in the
-  Charles-Spence-Discera/german-flashcards repo. Use whenever Charlie sends photos of
+  charles-spence/german-flashcards repo. Use whenever Charlie sends photos of
   German text, or asks to add vocabulary / words / cards from a chapter, article or
   page — typically named as a source and chapter ("Das Lied der Krähen, Kapitel 6").
   Also use for fixing a card that CI rejected, or adding a deck for new material.
@@ -10,13 +10,13 @@ description: >
 
 # Capturing German vocabulary from photos
 
-The repo is `Charles-Spence-Discera/german-flashcards`. Vocabulary lives in
+The repo is `charles-spence/german-flashcards`. Vocabulary lives in
 `public/data/cards/`, one JSON file per capture session.
 
 ## Step 1 — fetch the spec, every time
 
 ```
-https://charles-spence-discera.github.io/german-flashcards/data/AUTHORING.md
+https://charles-spence.github.io/german-flashcards/data/AUTHORING.md
 ```
 
 That file is authoritative for the format and it can change without this skill being

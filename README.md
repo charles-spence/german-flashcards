@@ -40,7 +40,7 @@ The last two are served by the live site, so a Claude session reads the current 
 rather than a pasted one that has gone stale:
 
 ```
-https://charles-spence-discera.github.io/german-flashcards/data/AUTHORING.md
+https://charles-spence.github.io/german-flashcards/data/AUTHORING.md
 ```
 
 Run `npm run validate:vocab` before committing. It parses each batch file, checks it
